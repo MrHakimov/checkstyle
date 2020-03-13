@@ -34,6 +34,14 @@ import com.puppycrawl.tools.checkstyle.api.TokenTypes;
  *   doConditionalStuff();
  * doUnconditionalStuff();
  * </pre>
+ * <p>Example:</p>
+ * <div class="wrapper">
+ * <pre>
+ * for (int i = 0; i &lt; 10; System.out.println(++i)); // OK
+ * while (true); // violation
+ * if (Math.random() &gt; 0.5); // OK
+ * </pre>
+ * </div>
  * <p>
  * To configure the check:
  * </p>
