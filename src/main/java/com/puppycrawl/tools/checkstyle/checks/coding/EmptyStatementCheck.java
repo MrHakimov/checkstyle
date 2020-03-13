@@ -42,6 +42,7 @@ import com.puppycrawl.tools.checkstyle.api.TokenTypes;
  * if (Math.random() &gt; 0.5); // OK
  * </pre>
  * </div>
+
  * <p>
  * To configure the check:
  * </p>
